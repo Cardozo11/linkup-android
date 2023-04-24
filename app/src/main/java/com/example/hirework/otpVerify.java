@@ -45,6 +45,8 @@ public class otpVerify extends AppCompatActivity {
 
     long duration=60000;
 
+    private String TOKEN_CONST = "session id";
+
 
     //String emailC,unm,pas;
 
