@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/DashboardMenu"
+        android:title="Dashboard"
+        android:icon="@drawable/ic_home_icon"/>
+    <item
+        android:id="@+id/gigs"
+        android:title="Gig"
+        android:icon="@drawable/ic_stats"/>
+
+    <item
+        android:id="@+id/fProfile"
+        android:title="Profile"
+        android:icon="@drawable/ic_user_icon"/>
+
+</menu>

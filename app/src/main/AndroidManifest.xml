@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.hirework">
+
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- permissions to read and right external storage of the device -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Hirework">
+        <activity android:name=".paymentWithdraw"></activity>
+        <activity android:name=".CustomerBank" />
+        <activity android:name=".CancelOrder" />
+        <activity android:name=".Chat" />
+        <activity android:name=".GigView2" />
+        <activity android:name=".CustomerSettings" />
+        <activity android:name=".FreelancerOrders" />
+        <activity android:name=".CustomerOrders" />
+        <activity android:name=".BankAccount" />
+        <activity android:name=".Withdraw" />
+        <activity android:name=".FreelancerSettings" />
+        <activity android:name=".TermsAndConditions" />
+        <activity android:name=".viewPDF" />
+        <activity android:name=".FileDownload" />
+        <activity android:name=".CONTACT_US" />
+        <activity android:name=".CustomerWorkspace" />
+        <activity android:name=".Workspace" />
+        <activity android:name=".Payment" />
+        <activity android:name=".Login" />
+        <activity android:name=".Category" />
+        <activity android:name=".OrderSuccess" />
+        <activity android:name=".CreateGigs" />
+        <activity android:name=".PlaceOrder" />
+        <activity android:name=".freelancerProfile" />
+        <activity android:name=".Account" />
+        <activity android:name=".Gigs" />
+        <activity android:name=".PlaceOrder2" />
+        <activity android:name=".CreateGigs4" />
+        <activity android:name=".CreateGigs3" />
+        <activity android:name=".CreateGigs2" />
+        <activity android:name=".CreateGigs5" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".GigView" />
+        <activity android:name=".CustomerProfile" />
+        <activity android:name=".CustomerOrderStats" />
+        <activity
+            android:name=".Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CreateFreelancerProfile3" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".CreateFreelancerProfile" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".CreateCustomerProfile2" />
+        <activity android:name=".CreateCustomerProfile" />
+        <activity android:name=".CreateFreelancerProfile2" />
+        <activity android:name=".otpVerify" />
+        <activity
+            android:name=".SearchActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustPan" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

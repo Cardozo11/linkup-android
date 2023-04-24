@@ -1,0 +1,89 @@
+<resources>
+    <!--    <string name="app_name">hirework</string>-->
+    <string name="app_name">LinkUp</string>
+    <string name="currency">₹</string>
+
+
+    <string-array name="cancel_reason">
+        <item>Not Satisfied </item>
+        <item>Freelancer issues</item>
+        <item>other</item>
+    </string-array>
+
+
+    <string-array name="gig_category">
+        <item>Choose Category</item>
+        <item>Audio</item>
+        <item>Graphics</item>
+        <item>Video</item>
+        <item>Content Writing</item>
+        <item>Digital Marketing</item>
+    </string-array>
+
+    <string-array name="Audio">
+        <item>Choose</item>
+        <item>Audio Recording</item>
+        <item>Audio Transcription</item>
+        <item>Audio Editing</item>
+    </string-array>
+
+
+    <string-array name="Graphics">
+        <item>Choose</item>
+        <item>Logo Designing</item>
+        <item>Invitation Card</item>
+        <item>Business Card</item>
+        <item>Digital Product</item>
+        <item>Branding</item>
+
+    </string-array>
+
+    <string-array name="Video">
+        <item>Choose</item>
+        <item>Video Editing</item>
+        <item>Video Creation</item>
+        <item>Video Ads</item>
+    </string-array>
+
+    <string-array name="Content_Writing">
+        <item>Choose</item>
+        <item>Blog Post</item>
+        <item>Terms and Conditions</item>
+        <item>Articles</item>
+    </string-array>
+
+    <string-array name="Digital_Marketing">
+        <item>Choose</item>
+        <item>Social Media Marketing</item>
+        <item>Content Marketing</item>
+        <item>Product Marketing</item>
+        <item>Advertising</item>
+    </string-array>
+
+
+    <string-array name="institution_list">
+        <item>Rosary College of Commerce and Arts</item>
+        <item>Government College of Arts, Science and Commerce, Sanquelim </item>
+        <item>Goa College of Home Science, Campal, Panaji </item>
+        <item>Sant Sohirobanath Ambiye Government College of Arts and Commerce, Pernem </item>
+        <item>Fr. Agnel College of Arts and Commerce, Pillar</item>
+        <item>Goa College of Music, Altinho, Panaji</item>
+        <item>V.M.Salgaocar College of Law Miramar-Panjim</item>
+        <item>G.R. Kare College of Law, Comba, </item>
+        <item>S. S. Dempo College of Commerce and Economics, Altinho, Panaji</item>
+        <item>Nirmala Institute of Education, Altinho, Panaji</item>
+        <item>VVM Shree Damodar College of Commerce and Economics, Margao </item>
+        <item>Parvatibai Chowgule College of Arts and Science,Margao</item>
+        <item>Carmel College of Arts, Science and Commerce for Women, Nuvem</item>
+        <item>St. Xavier College of Arts, Science and Commerce,Mapusa</item>
+
+    </string-array>
+
+    <string-array name="qualification_list">
+        <item>Graduate</item>
+        <item>Post Graduate</item>
+
+    </string-array>
+
+
+</resources>

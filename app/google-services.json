@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "602865153678",
+    "project_id": "linkup-a9e74",
+    "storage_bucket": "linkup-a9e74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602865153678:android:db97df162abdcaedf7bbdf",
+        "android_client_info": {
+          "package_name": "com.example.hirework"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602865153678-o35at56sd2kdr5i7hu5mib3fu9e0g1gk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiSpJhbATnOm5W6lWaJRySS0ttubVQpXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602865153678-o35at56sd2kdr5i7hu5mib3fu9e0g1gk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
